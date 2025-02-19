@@ -3,17 +3,17 @@ output "public_ip" {
   value = aws_lightsail_instance.server1.public_ip_address
 }
 
-# Display The Private IP
-output "private_ip" {
+# Display Private IP    
+output "Private_ip" {
   value = aws_lightsail_instance.server1.private_ip_address
 }
 
-# Display The Key Name
-output "key_name" {
+# Display Key Name
+output "key_pair_name" {
   value = aws_lightsail_instance.server1.key_pair_name
 }
 
-# Display Username 
+# Display Username  
 output "Username" {
   value = aws_lightsail_instance.server1.username
 }
